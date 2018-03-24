@@ -235,6 +235,29 @@ div.desc {
     z-index: -1;
 }
 
+/*grid*/
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu;
+margin-left:30%;
+margin-top: 20%; }
+.item3 { grid-area: main; }
+.item4 { grid-area: footer; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+}
+.grid-container > div {
+  text-align: center;
+
+}
+
 /*footer*/
 
 footer { background-color: black;
