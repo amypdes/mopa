@@ -1,101 +1,81 @@
 <!DOCTYPE html>
   <html lang='fr'>
-  <header>
-  <h1>MoIA</h1>
-  <link rel="shortcut icon" img src="logo.jpg" class="nav">
-  </header>
 <head>
-    <title>MoIA</title>
+    <title>MoIA, Museum Of Photographical Art</title>
+	<link rel="icon" href="logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="projet.css" />
 	<link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile-500.css" />
     <link rel="stylesheet" media="screen and (max-width: 750px)" href="css/mobile-750.css" />
     <meta charset="UTF-8" />
 </head>
-  
- <body>
+ <body>  
+	  <h1>MoPA</h1>
     
-	
 <nav>
 <div class="dropdown">
-<a href="index.html"><img src="home.png" class="nav"></a>
+<a href="index.html"><img src="home.png" class="nav" alt="retour à l'accueil"></a>
 </div>
   <div class="dropdown">
-  <button class="dropbtn"><a href="info.html">Informations</a></button>
-  <div class="dropdown-content">
-    <a href="lieux.html">Lieux & horaires</a>
+	<button class="dropbtn" onclick="document.location.href='info.html'">Informations</button>
+	<div class="dropdown-content">
+    <a href="lieux.html">Prix, lieux & horaires</a>
     <a href="conseils.html">Conseils pour la visite</a>
     <a href="access.html">Accessibilité</a>
+	</div>
+	</div>
+<div class="dropdown">
+  <button class="dropbtn" onclick="document.location.href='auj.html'">Actuellement</button>
+  <div class="dropdown-content">
+    <a href="events.html">Evenements</a>
+    <a href="expo.html">Expositions</a>
   </div>
 </div><div class="dropdown">
-  <button class="dropbtn"><a href="expo.html">Expositions</a></button>
+  <button class="dropbtn" onclick="document.location.href='art.html'">Art & Artistes</button>
   <div class="dropdown-content">
-    <a href="#">Evenements</a>
-    <a href="#">Expositions</a>
-    <a href="#">Films</a>
-	<a href="#">Performances</a>
-	<a href="#">Historique des expositions</a>
-  </div>
-</div><div class="dropdown">
-  <button class="dropbtn"><a href="art.html">Art & Artistes</a></button>
-  <div class="dropdown-content">
-    <a href="#">Collections</a>
-    <a href="#">Artistes</a>
+    <a href="collec.html">Collections</a>
+    <a href="artistes.html">Artistes</a>
   </div>
 </div>	
 </nav>
       
-<h2>About us</h2>
-<p class="about">At The Museum of Modern Art and MoMA PS1, 
-we celebrate creativity, openness, tolerance, 
-and generosity. We aim to be inclusive places—both 
-onsite and online—where diverse cultural, artistic, social, 
-and political positions are welcome. We’re committed to sharing 
-the most thought-provoking modern and contemporary art, 
-and hope you will join us in exploring the art, ideas, 
-and issues of our time.</p>
+<div id="about"><h2>A propos</h2></div>
+<p class="about">Au Musée de l'art de la photographie,
+nous célébrons la créativité, l'ouverture, la tolérance et la générosité. 
+Nous visons à être des lieux inclusifs - sur place et en ligne - 
+où diverses positions culturelles, artistiques, sociales et politiques 
+sont les bienvenues. 
+Nous nous engageons à partager l'art et la photographie, moderne et contemporain qui suscite le plus de réflexion 
+et nous espérons que vous vous joindrez à nous pour explorer l'art, les idées et les problèmes de notre temps.</p>
 
-<h2>Contact us</h2>
-<li>General Information
-(212) 708-9400
-Information Request</li>
-<li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li><li>General Information
-(212) 708-9400
-Information Request</li>
+<div id="Contact"><h2>Nous contacter</h2>
+<p>Téléphone : + 33 (0)1 40 20 50 50
+<br>Pour obtenir des informations sur le musée, les services à votre disposition et notre actualité, 
+<br>l’équipe du service de l’accueil est à votre disposition.
+<br>
+<br>Banque d'information du musée :
+<br>Tél. : +33 (0)1 40 20 53 17
+<br>Tous les jours, sauf le mardi, de 9h à 18h45 (21h45 les mercredis et vendredis).
+<br>
+<br>info@mopa.fr
+<br>
+<br><b>Personnes handicapées</b>
+<br>Standard : +33 (0)1 40 20 50 50
+<br>Banque d'information : +33 (0)1 40 20 53 17
+<br>Ligne visiteurs handicapés : +33 (0)1 40 20 59 90
+<br>handicap@mopa.fr</p></div>
 
 
-	  <footer>
-	<a href="about.html">Nous sommes...</a>
-	<ul><p>The Museum of Internet Art,</p> 
-    <p>10:00 - 21:00</p>
-    <p>Paris</p></ul> 
+
+
+
+	<footer>
+	<p><a href="about.html#about">A propos</a>
+	<a href="about.html#Contact">Contact</a></p>
+    <p>Musée de l'Art de la Photographie, 
+	<br>Horaires: 10:00 - 21:00 
+	<br>Paris</p>
+	<p>MoPA &copy; 2018
+	<br><a href="Mention.html">Mentions légales</a></p>
 	</footer>
       
 	</body>

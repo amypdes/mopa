@@ -1,52 +1,53 @@
 <!DOCTYPE html>
   <html lang='fr'>
-  
-  <h1>MoIA</h1>
-  
 <head>
-    <title>MoIA</title>
+    <title>MoIA, Museum Of Photographical Art</title>
+	<link rel="icon" href="logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="projet.css" />
+	<link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile-500.css" />
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="css/mobile-750.css" />
     <meta charset="UTF-8" />
-  </head>
-  
- <body>
-    <header>
-      
+</head>
+ <body>  
+	  <h1>MoPA</h1>
+    
 <nav>
 <div class="dropdown">
-<a href="index.html"><img src="home.png" class="nav"></a>
+<a href="index.html"><img src="home.png" class="nav" alt="retour à l'accueil"></a>
 </div>
   <div class="dropdown">
-  <button class="dropbtn"><a href="info.html">Informations</a></button>
-  <div class="dropdown-content">
-    <a href="lieux.html">Lieux & horaires</a>
+	<button class="dropbtn" onclick="document.location.href='info.html'">Informations</button>
+	<div class="dropdown-content">
+    <a href="lieux.html">Prix, lieux & horaires</a>
     <a href="conseils.html">Conseils pour la visite</a>
     <a href="access.html">Accessibilité</a>
-  </div>
-</div><div class="dropdown">
-  <button class="dropbtn"><a href="expo.html">Expositions</a></button>
+	</div>
+	</div>
+<div class="dropdown">
+  <button class="dropbtn" onclick="document.location.href='auj.html'">Actuellement</button>
   <div class="dropdown-content">
     <a href="events.html">Evenements</a>
     <a href="expo.html">Expositions</a>
-    <a href="#">Films</a>
-	<a href="#">Performances</a>
-	<a href="#">Historique des expositions</a>
   </div>
 </div><div class="dropdown">
-  <button class="dropbtn"><a href="art.html">Art & Artistes</a></button>
+  <button class="dropbtn" onclick="document.location.href='art.html'">Art & Artistes</button>
   <div class="dropdown-content">
-    <a href="#">Collections</a>
-    <a href="#">Artistes</a>
+    <a href="collec.html">Collections</a>
+    <a href="artistes.html">Artistes</a>
   </div>
 </div>	
 </nav>
 
+<h3><a href="lieux.html">Lieux & horaires</a></h3>
+<h3><a href="conseils.html">Conseils pour la visite</a></h3>
+<h3><a href="access.html">Accessibilité</a></h3>
+
 <footer>
-	<a href="soutien.html">Nous sommes...</a>
-	<ul><p>The Museum of Internet Art,</p> 
-    <p>10:00 - 21:00</p>
-    <p>Paris</p></ul> 
+	<p><a href="about.html#about">A propos</a>
+	<a href="about.html#Contact">Contact</a></p>
+    <p>Musée de l'Art de la Photographie, 
+	<br>Horaires: 10:00 - 21:00 
+	<br>Paris</p>
+	<p>MoPA &copy; 2018
+	<br><a href="Mention.html">Mentions légales</a></p>
 	</footer>
-         
-	</body>
-	</html>

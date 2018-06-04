@@ -1,61 +1,68 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang='fr'>
-  
-  <h1>MoIA</h1>
-  
 <head>
-    <title>MoIA</title>
+    <title>MoIA, Museum Of Photographical Art</title>
+	<link rel="icon" href="logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="projet.css" />
 	<link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile-500.css" />
     <link rel="stylesheet" media="screen and (max-width: 750px)" href="css/mobile-750.css" />
     <meta charset="UTF-8" />
 </head>
-  
- <body>
-    <header>
-	
+ <body>  
+	  <h1>MoPA</h1>
+    
 <nav>
 <div class="dropdown">
-<a href="index.html"><img src="home.png" class="nav"></a>
+<a href="index.html"><img src="home.png" class="nav" alt="retour à l'accueil"></a>
 </div>
   <div class="dropdown">
-  <button class="dropbtn"><a href="info.html">Informations</a></button>
-  <div class="dropdown-content">
-    <a href="lieux.html">Lieux & horaires</a>
+	<button class="dropbtn" onclick="document.location.href='info.html'">Informations</button>
+	<div class="dropdown-content">
+    <a href="lieux.html">Prix, lieux & horaires</a>
     <a href="conseils.html">Conseils pour la visite</a>
     <a href="access.html">Accessibilité</a>
+	</div>
+	</div>
+<div class="dropdown">
+  <button class="dropbtn" onclick="document.location.href='auj.html'">Actuellement</button>
+  <div class="dropdown-content">
+    <a href="events.html">Evenements</a>
+    <a href="expo.html">Expositions</a>
   </div>
 </div><div class="dropdown">
-  <button class="dropbtn"><a href="expo.html">Expositions</a></button>
+  <button class="dropbtn" onclick="document.location.href='art.html'">Art & Artistes</button>
   <div class="dropdown-content">
-    <a href="#">Evenements</a>
-    <a href="#">Expositions</a>
-    <a href="#">Films</a>
-	<a href="#">Performances</a>
-	<a href="#">Historique des expositions</a>
-  </div>
-</div><div class="dropdown">
-  <button class="dropbtn"><a href="art.html">Art & Artistes</a></button>
-  <div class="dropdown-content">
-    <a href="#">Collections</a>
-    <a href="#">Artistes</a>
+    <a href="collec.html">Collections</a>
+    <a href="artistes.html">Artistes</a>
   </div>
 </div>	
 </nav>
  
-<p>Accessibility
+<div class="access"><h2>Accessibilité</h2>
 
-Everyone is welcome at MoMA. We offer a variety of free programs and services to make MoMA accessible to you.
-
-Wheelchair Accessible Sign language interpretation available Assisted listening capabilities available OC Service dogs welcome Braille available Large print available
-
-In 2010, we received the Innovations in Alzheimer’s Disease Caregiving Legacy Award from The Family Caregiver Alliance and The Rosalinde and Arthur Gilbert Foundation, the Community Leadership Award from the Alzheimer’s Association New York City Chapter, the Excellence in Published Resources Award from the American Association of Museums, the Best of the Web award from Museums and the Web for the Meet Me website, and First Prize in the American Association of Museums’ Museum Publication Design Competition for the Meet Me book. In 2007, we received the Ruth Green Advocacy Award from the League for the Hard of Hearing. In 2000, we won the Access Innovation in the Arts Award, presented by VSA Arts and MetLife Foundation, in recognition of our programs serving people with disabilities.</p>
-
-	  <footer>
-	<a href="about.html">Nous sommes...</a>
-	<ul><p>The Museum of Internet Art,</p> 
-    <p>10:00 - 21:00</p>
-    <p>Paris</p></ul> 
+<p>Tout le monde est le bienvenu au MoPA. 
+<br>Nous offrons une variété de programmes et de services gratuits pour rendre le MoMA accessible à vous.
+<br>Accessible aux fauteuils roulants. Interprétation en langue des signes disponible. 
+<br>Capacités d'écoute assistée disponibles OC Chiens d'assistance bienvenus Braille disponible Grandes éd.</p>
+	
+	
+<img src="accessibilité/accès.png" class="access" alt="Accessibilité">
+	
+	<p>L'une de nos plus grandes préoccupation est l'accès à tous de la culture. 
+<br>Nous nous engageons davantage chaque jours en investissant et en nous alliant à de grands organismes.
+<br>Aucune personne ne devrait voir son interet pour la culture restreint à cause de ses différences. 
+<br>Si malheureusement un quelconque problème viendrait à survenir à ce sujet, 
+<br>veuillez nous contacter au numéro adapté, que vous trouverez dans la rubrique <a href="about.html#Contact">Contact</a>.</p>
+	
+	
+</div>	
+	<footer>
+	<p><a href="about.html#about">A propos</a>
+	<a href="about.html#Contact">Contact</a></p>
+    <p>Musée de l'Art de la Photographie, 
+	<br>Horaires: 10:00 - 21:00 
+	<br>Paris</p>
+	<p>MoPA &copy; 2018</p>
 	</footer>
       
 	</body>
